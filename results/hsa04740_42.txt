@@ -1,0 +1,4 @@
+For data_name: hsa04740, split: 42
+          ROC score  AP score
+name                         
+Node2Vec   0.997387  0.997304
