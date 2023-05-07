@@ -249,7 +249,7 @@ def run_node2vec(graph_name, graph, rand_state, split_fraction=0.1, walk_length=
 
     # Below is a summary of the different splits that have been created in this section
 
-    pd.DataFrame(
+    display(pd.DataFrame(
         [
             (
                 "Training Set",
@@ -274,7 +274,7 @@ def run_node2vec(graph_name, graph, rand_state, split_fraction=0.1, walk_length=
             ),
         ],
         columns=("Split", "Number of Examples", "Hidden from", "Picked from", "Use"),
-    ).set_index("Split")
+    ).set_index("Split"))
 
 
     # Parameter Settings

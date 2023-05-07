@@ -1,0 +1,4 @@
+For data_name: hsa_mmu_04010, split: 42
+          ROC score  AP score
+name                         
+Node2Vec   0.981253  0.981673
